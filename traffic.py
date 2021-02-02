@@ -1,25 +1,27 @@
 #!/usr/bin/env python3
 
 import time
+import sys
 
 green_green=15
 green_amber=5
 green=40
 amber=10
-red=110
+red=210
 
+time.sleep(int(sys.argv[1]))
 while 1:
     j=0
     i=0
-    while i < red:
-        print("Red for ", i)
+    while i < green_green:
+        print("Green green for ", i)
         i=i+1
         j=j+1
         time.sleep(1)
 
     i=0
-    while i < amber:
-        print("Amber for ", i)
+    while i < green_amber:
+        print("Green amber for ", i)
         i=i+1
         j=j+1
         time.sleep(1)
@@ -32,15 +34,15 @@ while 1:
         time.sleep(1)
 
     i=0
-    while i < green_green:
-        print("Green green for ", i)
+    while i < amber:
+        print("Amber for ", i)
         i=i+1
         j=j+1
         time.sleep(1)
 
     i=0
-    while i < green_amber:
-        print("Green amber for ", i)
+    while i < red:
+        print("Red for ", i)
         i=i+1
         j=j+1
         time.sleep(1)

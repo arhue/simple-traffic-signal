@@ -1,6 +1,6 @@
 #!/bin/bash
 terminal_emulator=gnome-terminal
-$terminal_emulator -- python3 traffic-1.py
-$terminal_emulator -- python3 traffic-2.py
-$terminal_emulator -- python3 traffic-3.py
-$terminal_emulator -- python3 traffic-4.py
+$terminal_emulator -- python3 traffic.py 0
+$terminal_emulator -- python3 traffic.py 70
+$terminal_emulator -- python3 traffic.py 140
+$terminal_emulator -- python3 traffic.py 210
